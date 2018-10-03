@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team 1" />
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/plus" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="0" />
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/minus" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:background=""
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team 2" />
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+             android:src="@drawable/plus" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="team 2" />
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/minus" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

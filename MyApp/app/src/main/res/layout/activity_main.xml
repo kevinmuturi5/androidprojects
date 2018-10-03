@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#456"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtBrowser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Enter url to visit"
+        android:inputType="textPersonName" />
+
+
+
+    <Button
+        android:id="@+id/btnOpenBrowser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:layout_weight="1"
+        android:text="open website" />
+
+
+    <EditText
+        android:id="@+id/edtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:ems="10"
+        android:hint="enter what to search"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:text="open location" />
+
+    <EditText
+        android:id="@+id/edtShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="169dp"
+        android:ems="10"
+        android:hint="enter text to share "
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp"
+        android:text="Share text" />
+
+    <Button
+        android:id="@+id/btncam"
+        android:layout_width="wrap_content"
+        android:text="launch camera"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

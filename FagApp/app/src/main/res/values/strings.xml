@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FlagApp</string>
+    <string-array name="countries">
+        <item>kenya</item>
+        <item>burundi</item>
+        <item>Angola</item>
+        <item>Eritrea</item>
+        <item>Dijbouti</item>
+        <item>Rwanda</item>
+        <item>Tanzania</item>
+        <item>uganda</item>
+        <item>Southsudan</item>
+        <item>assescionisland</item>
+        <item>congo</item>
+        <item>Ginnie</item>
+
+    </string-array>
+
+
+</resources>
